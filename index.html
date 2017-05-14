@@ -1,5 +1,58 @@
-<p> This will be the homepage that comes up first </p>
-<p> This is done because we want it to come up first,
-  so it must be named this. </p>
-  <p> Always make sure to name the html pages
-    things that are important to search engines.</p>
+<!DOCTYPE html>
+  <!-- This is a comment. I can see it in the code, but it won't
+appear in the browser. index.html will be the homepage that comes up first </p>
+This is done because we want it to come up first,
+  so it must be named this.
+Always make sure to name the html pages things that are important to search engines.
+  -->
+
+<html>
+  <!--
+The head section contains info for search engines and the browser.
+It's not see by site visitors.
+  -->
+
+  <meta charset="utf-8">
+  <title> Hikari - First Flatiron Website - About</title>
+</head>
+
+<body>
+<!--
+The body is the entire viewable area of the web page.
+For example, we can see text, links, images, and media.
+-->
+<!--
+If you're using the Learn IDE, you'll need to use the terminal to open your
+web pages in browser. Simple type httpserver in the
+terminal, and this will start a server for you. Now you
+can go to the IP address that the terminal gives you to
+view your web pages!
+(Check out this Help Center article for more information:
+https://help.learn.co/hc/en-us/articles/230234088).
+-->
+<p> What's up? </p>
+
+<img src="images/cute-thing.jpg" alt="A beautiful living room" title="Welcome to Hikari Website 1">
+
+<!-- links -->
+<a href="index.html"> About </a>
+<p> <a href="new-properties.html"> New properties </a> </p>
+<a href= "contact.html"> Contact Us</a>
+<p> <a href="http://hud.gov" target="_blank"> H.U.D.</a></p>
+
+<!-- a stands for anchor, but think of it as standing for action, linking to some other page.
+it tells the browser where we want the link to go to.
+Between the two tags is the actual linkable content you click on.
+
+All these links are internal, using relative paths - the file name - because they're in the same folder.
+If you want to link to an external site, it's about the same, just with a url.
+
+The full path is an absolute path. This is needed for external sites.
+By default, they'll target the current page they're in.
+But you can make it open a new tab instead of changing the current page
+you're on with another attribute: target
+
+-->
+</body>
+
+</html>
